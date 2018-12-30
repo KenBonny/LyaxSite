@@ -2,8 +2,13 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    color: #f807c0;
+}
+
+/* menu */
 .navbar {
-    background-color: hotpink;
+    background-color: pink;
     font-weight: bold;
 }
 
@@ -20,8 +25,19 @@ body {
     text-decoration: underline;
 }
 
+.navbar a {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* footer */
 footer {
-    background-color: rgba(255, 175, 185, 0.41) !important;
+    background-color: rgba(255, 175, 185, 0.21) !important;
 }
 
 footer .card {
@@ -47,4 +63,13 @@ footer .list-group-item {
     margin-bottom: -1px;
     background-color: transparent;
     border: none;
+}
+
+footer a {
+    color: hotpink;
+}
+
+footer a:hover {
+    color: hotpink;
+    text-decoration: underline;
 }
