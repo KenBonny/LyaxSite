@@ -2,8 +2,17 @@ body {
     min-height: 100vh;
 }
 
-h1 {
+h1, h5 {
     color: #f807c0;
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
 }
 
 /* menu */
@@ -33,6 +42,11 @@ h1 {
 .navbar a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/* skills */
+.card-header {
+    background-color: rgba(255, 175, 185, 0.21) !important;
 }
 
 /* footer */
@@ -65,11 +79,28 @@ footer .list-group-item {
     border: none;
 }
 
-footer a {
-    color: hotpink;
+/* Kelly image */
+#kelly {
+    width: 504px;
 }
 
-footer a:hover {
-    color: hotpink;
-    text-decoration: underline;
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    #kelly {
+        width: 378px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    #kelly {
+        width: 378px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #kelly {
+        width: 252px;
+    }
 }
