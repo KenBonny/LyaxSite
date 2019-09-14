@@ -58,19 +58,6 @@ a:hover {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-    #contact .row {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    
-    #contact .card {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-
-
 /* skills */
 .card-header {
     background-color: rgba(255, 175, 185, 0.21) !important;
@@ -106,6 +93,10 @@ footer .list-group-item {
     border: none;
 }
 
+.click-me {
+    cursor: pointer;
+}
+
 /* Kelly image */
 #kelly {
     width: 504px;
@@ -122,6 +113,15 @@ footer .list-group-item {
 @media (max-width: 768px) {
     #kelly {
         width: 378px;
+    }
+    #contact .row {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #contact .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
