@@ -1,6 +1,7 @@
 baseURL: https://lyax.be
 languageCode: nl-BE
 title: Lyax
+publishDir: docs
 languages:
     en:
         languageName: English
