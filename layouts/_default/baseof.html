@@ -12,19 +12,15 @@
         {{ end }}
     </head>
     <body>
-        <header>
-            {{ partial "header/nav.html" . }}
-
-            {{ block "header" . }}
-            {{ end }}
-        </header>
+        
+        {{ partial "header/nav.html" . }}
 
         <main class="container">
             {{ block "main" . }}
             {{ end }}
         </main>
 
-        <footer>
+        <footer class="mt-4">
             {{ partial "footer/footer.html" }}
             {{ partial "footer/scripts.html" }}
             {{ block "footer" . }}
