@@ -1,12 +1,14 @@
 baseURL: https://lyax.be
 languageCode: nl-BE
-title: Lyax - Devilishly Good Support
+title: Lyax
 languages:
     en:
         languageName: English
         params:
             description: I am Kelly Alix
+            tagline: Devilishly Good Support
     nl:
         languageName: Nederlands
         params:
             description: Ik ben Kelly Alix
+            tagline: Devilishly Good Support
