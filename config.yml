@@ -9,12 +9,10 @@ languages:
         params:
             description: Ik ben Kelly Alix
             tagline: Devilishly Good Support
-            about: Over
             vat: BTW
     en:
         languageName: English
         params:
             description: I am Kelly Alix
             tagline: Devilishly Good Support
-            about: About
             vat: VAT
