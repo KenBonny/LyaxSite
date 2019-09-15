@@ -1,0 +1,20 @@
+{{ $id := .Get "id" }}
+{{ $show := "" }}
+{{ if eq (.Get "open") "true" }}
+    {{ $show = " show" }}
+{{ end }}
+<div class="card" id="{{ $id }}Title">
+    <a data-toggle="collapse" class="click-me" data-target="#{{ $id }}Body" aria-expanded="false" aria-controls="{{ $id }}">
+        <div class="card-header">
+            <h6 class="mb-0">
+                {{ .Get "title" }}
+            </h6>
+        </div>
+    </a>
+
+    <div id="{{ $id }}Body" class="collapse{{ $show }}" aria-labelledby="{{ $id }}Title">
+        <div class="card-body">
+            {{ .Inner }}
+        </div>
+    </div>
+</div>
