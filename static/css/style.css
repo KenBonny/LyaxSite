@@ -44,6 +44,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.nav-link.active {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 /* contact */
 .card-body h5 {
     color: black;
