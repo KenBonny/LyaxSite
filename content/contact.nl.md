@@ -5,6 +5,12 @@ date: 2019-09-16T18:49:16+02:00
 
 ## Neem contact op met mij
 
+Ik word het liefst gecontacteerd via email of direct messaging diensten zoals WhatsApp of Telegram.
+
+Uiteraard behoren video calls ook tot de mogelijkheden. Indien u dit wenst, kan u me hiervoor contacteren via onderstaande gegevens en dan plannen we dit in.
+
+Dit is zowel voor u als voor mij direct, duidelijk en snel.
+
 {{< row >}}
 
 {{% card title="Niet dringend" %}}
@@ -29,7 +35,7 @@ Ik ben ook snel via [WhatsApp](https://web.whatsapp.com/) te bereiken.
 Via [Telegram (@KellyAlix)](https://telegram.me/KellyAlix) krijg ik het liefst een tekstbericht.
 
 ##### {{< icon b twitter >}} Twitter
-Het sociale medium dat ik het meeste gebruik is [Twitter (@KellyAlix)](https://twitter.com/KellyAlix).
+Ik heb ook een Twitter account: [Twitter (@KellyAlix)](https://twitter.com/KellyAlix).
 
 ##### {{< icon s sms >}} SMS bericht
 Natuurlijk werkt een lekker ouderwets SMS bericht ook nog altijd.
