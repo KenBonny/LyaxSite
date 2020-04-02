@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Lyax and Kelly Alix on Lyax</title>
+    <link>https://lyax.be/en/</link>
+    <description>Recent content in About Lyax and Kelly Alix on Lyax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <lastBuildDate>Wed, 01 Apr 2020 21:16:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://lyax.be/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://lyax.be/en/contact/</link>
+      <pubDate>Wed, 01 Apr 2020 21:16:16 +0100</pubDate>
+      
+      <guid>https://lyax.be/en/contact/</guid>
+      <description>Contact me I prefer to be contacted via e-mail or direct messaging services like WhatsApp or Telegram.
+It is also possible to do video calls. If you would like to arrange this, you can contact me and we can arrange an online meeting.
+Non urgent Email An email to kelly@lyax.be is the easiest way to get in touch.
+ LinkedIn My LinkedIn profile is the most important social medium for recruiters, which is also where you will find my most recent resumé.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://lyax.be/en/services/</link>
+      <pubDate>Wed, 01 Apr 2020 21:16:16 +0100</pubDate>
+      
+      <guid>https://lyax.be/en/services/</guid>
+      <description>At the moment, I provide the following services Data Protection/Application GDPRI received my certificate in 2018. I was able to apply this in the job I was doing at the time by making the company compliant with GDPR.Legal writing and transcriptionContacting lawyers, courts and judicial officers is one of my strengths due to my experience in at a judicial officers’ office.</description>
+    </item>
+    
+  </channel>
+</rss>

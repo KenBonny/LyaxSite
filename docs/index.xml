@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Over Lyax en Kelly Alix on Lyax</title>
+    <link>https://lyax.be/</link>
+    <description>Recent content in Over Lyax en Kelly Alix on Lyax</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <lastBuildDate>Sun, 15 Sep 2019 14:28:16 +0200</lastBuildDate>
+    
+	<atom:link href="https://lyax.be/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://lyax.be/contact/</link>
+      <pubDate>Mon, 16 Sep 2019 18:49:16 +0200</pubDate>
+      
+      <guid>https://lyax.be/contact/</guid>
+      <description>Neem contact op met mij Ik word het liefst gecontacteerd via email of direct messaging diensten zoals WhatsApp of Telegram.
+Uiteraard behoren video calls ook tot de mogelijkheden. Indien u dit wenst, kan u me hiervoor contacteren via onderstaande gegevens en dan plannen we dit in.
+Dit is zowel voor u als voor mij direct, duidelijk en snel.
+Niet dringend Email Een email naar kelly@lyax.be is de gemakkelijkste manier om in contact te komen.</description>
+    </item>
+    
+    <item>
+      <title>Diensten</title>
+      <link>https://lyax.be/services/</link>
+      <pubDate>Sun, 15 Sep 2019 15:09:34 +0200</pubDate>
+      
+      <guid>https://lyax.be/services/</guid>
+      <description>Momenteel bied ik volgende diensten aan Data Protection/Toepassing GDPRIk heb mijn certificaat voor DPO gehaald via Syntra in 2018. Ik heb dit in mijn toenmalige job kunnen toepassen door het bedrijf compliant te maken volgens de regels van de GDPR.  Legal writing en transcriptieRechtstreeks contact met advocaten, rechtbanken en deurwaarders is mij niet vreemd gezien mijn ervaring bij een deurwaarderskantoor.</description>
+    </item>
+    
+  </channel>
+</rss>
