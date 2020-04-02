@@ -3,6 +3,8 @@ languageCode: nl-BE
 title: Lyax
 publishDir: docs
 DefaultContentLanguage: nl
+markup:
+    defaultMarkdownHandler: blackfriday
 languages:
     nl:
         languageName: Nederlands
