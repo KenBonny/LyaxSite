@@ -3,7 +3,7 @@ title: "Diensten"
 date: 2019-09-15T15:09:34+02:00
 ---
 
-## Momenteel ben ik ervaren in de volgende zaken
+## Momenteel bied ik volgende diensten aan
 
 {{< accordion >}}
 

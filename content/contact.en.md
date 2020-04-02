@@ -13,7 +13,7 @@ It is also possible to do video calls. If you would like to arrange this, you ca
 
 {{% card title="Non urgent" %}}
 ##### {{< icon s envelope >}} Email
-An email to [kelly@lyax.be](mailto:kelly@lyax.be) is the most easy way to get in touch.
+An email to [kelly@lyax.be](mailto:kelly@lyax.be) is the easiest way to get in touch.
 
 ##### {{< icon b linkedin >}} LinkedIn
 [My LinkedIn profile](https://www.linkedin.com/lyax/) is the most important social medium for recruiters, which is also where you will find my most recent resumé.

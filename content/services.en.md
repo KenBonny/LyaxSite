@@ -3,7 +3,7 @@ title: "Services"
 date: 2020-04-01T21:16:16+01:00
 ---
 
-## At the moment, I have experience with
+## At the moment, I provide the following services
 
 {{< accordion >}}
 
@@ -24,7 +24,7 @@ Preparing files and following up from start to finish has always been a recurrin
 {{< /accordion-item >}}
 
 {{< accordion-item id="credit-control" title="Credit Control" >}}
-With my experience in a collection agency and with a judicial officer, I acquired the skills to follow up your unpaid invoices and am able to negotiate a payment plan with the debtor. If necessary, I can make the required steps with lawyers and follow up with them.
+With my experience in a collection agency and with a judicial officer, I acquired the skills to follow up your unpaid invoices and am able to negotiate a payment plan with the debtor. If necessary, I can take the required steps with lawyers and follow up with them.
 {{< /accordion-item >}}
 
 {{< accordion-item id="ms-office" title="Microsoft Office" >}}
