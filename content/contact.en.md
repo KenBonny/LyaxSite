@@ -19,7 +19,7 @@ An email to [kelly@lyax.be](mailto:kelly@lyax.be) is the easiest way to get in t
 [My LinkedIn profile](https://www.linkedin.com/lyax/) is the most important social medium for recruiters, which is also where you will find my most recent resumé.
 
 ##### {{< icon s map-marker-alt >}} Address
-All regular mail can be sent to [August van Putlei 100, 2150 Borsbeek, Belgium](https://www.google.be/maps/place/August+van+Putlei+100,+2150+Borsbeek/).
+All regular mail can be sent to [Tolbroek 42, 2560 Bevel, Belgium](https://goo.gl/maps/D5jVdzcioAXC2qqq6).
 
 ##### {{< icon b facebook-f >}} Facebook
 You can contact me via [my company page](https://www.facebook.com/LyaxBE).

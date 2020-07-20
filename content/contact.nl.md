@@ -21,7 +21,7 @@ Een email naar [kelly@lyax.be](mailto:kelly@lyax.be) is de gemakkelijkste manier
 Het belangrijkste sociale medium voor recruiters, waar ook mijn meest geüpdate cv gevonden kan woden, is [mijn LinkedIn profile](https://www.linkedin.com/lyax/).
 
 ##### {{< icon s map-marker-alt >}} Adres
-Alle post kan verstuurd worden naar [August van Putlei 100, 2150 Borsbeek, Belgium](https://www.google.be/maps/place/August+van+Putlei+100,+2150+Borsbeek/).
+Alle post kan verstuurd worden naar [Tolbroek 42, 2560 Bevel](https://goo.gl/maps/D5jVdzcioAXC2qqq6).
 
 ##### {{< icon b facebook-f >}} Facebook
 U kan mij ook contacteren via [mijn bedrijfspagina](https://www.facebook.com/LyaxBE).
