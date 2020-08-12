@@ -9,14 +9,14 @@ languages:
     nl:
         languageName: Nederlands
         params:
-            description: Ik ben Kelly Alix
+            description: Administratieve ondersteuning voor bedrijven en ondernemers!
             tagline: Devilishly Good Support
             vat: BTW
             about: Over
     en:
         languageName: English
         params:
-            description: I am Kelly Alix
+            description: Administrative support for companies and entrepreneurs!
             tagline: Devilishly Good Support
             vat: VAT
             about: About
