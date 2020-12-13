@@ -13,6 +13,7 @@ languages:
             tagline: Devilishly Good Support
             vat: BTW
             about: Over
+            home: Home
     en:
         languageName: English
         params:
@@ -20,3 +21,4 @@ languages:
             tagline: Devilishly Good Support
             vat: VAT
             about: About
+            home: Home

@@ -1,62 +1,46 @@
 {{ $currentUrl := .RelPermalink }}
 {{ $logo := "images/logo.png" | relURL }}
 {{ $homeUrl := "/" | relLangURL }}
-<header class="container">
-  <img src={{ $logo }} alt="Logo" width="40%" class="mx-auto d-none d-md-block" />
-  <div class="d-md-none">
-    <img src={{ $logo }} alt="Logo" width="100%" class="mx-auto d-block" />
-  </div>
+<header>
+  <a href="{{ $homeUrl }}" aria-label="{{ .Site.Params.Home }}">
+    <img src={{ $logo }} alt="Logo" class="ui centered medium image computer only grid" />
+    <img src={{ $logo }} alt="Logo" class="ui image mobile only grid" />
+  </a>
 </header>
-<nav class="navbar navbar-expand-lg sticky-top container">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars"></i>
-  </button>
+<div class="ui container">
+  <nav class="ui four item menu">
+    <a href="{{ $homeUrl }}"
+       class="item {{if eq $homeUrl $currentUrl}}active{{ end }}"
+       aria-label="{{ .Site.Params.Home }}">
+      {{ .Site.Params.Home }}
+    </a>
+    {{ range .Site.RegularPages }}
+    <a href="{{ .RelPermalink }}"
+       class="item {{if eq .RelPermalink $currentUrl}}active{{ end }}"
+       aria-label="{{ .Title }}">
+      {{ .Title }}
+    </a>
+    {{ end }}
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-
-      <li class="nav-item">
-        <a class='nav-link {{if eq $homeUrl $currentUrl}}active{{ end }}'
-           href="{{ $homeUrl }}">
-          {{ .Site.Params.About }}
+    <div class="ui dropdown item">
+      <img src={{ printf "/images/flags/%s.png" .Lang | relURL }} alt="{{ .Lang }}" aria-label="{{ .Lang }}" />
+      <div class="menu">
+        {{ $currentLang := .Lang }}
+        {{ range .Translations }}
+        {{ if not (eq $currentLang .Lang) }}
+        <a href="{{ .RelPermalink }}" class="item">
+          <!--        <img src={{ printf "/images/flags/%s.png" .Lang | relURL }} alt={{ .Language.LanguageName }}-->
+          <!--          aria-label={{ .Language.LanguageName }} />-->
+          {{ .Language.LanguageName }}
         </a>
-      </li>
-      {{ range .Site.RegularPages }}
-      <li class="nav-item">
-        <a class="nav-link {{if eq .RelPermalink $currentUrl}}active{{ end }}"
-           href="{{ .RelPermalink }}">
-          {{ .Title }}
-        </a>
-      </li>
-      {{ end }}
-
-    </ul>
-
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a id="navbarDropdown"
-           class="nav-link dropdown-toggle"
-           href="#"
-           role="button"
-           data-toggle="dropdown"
-           aria-haspopup="true"
-           aria-expanded="false">
-          <img src={{ printf "/images/flags/%s.png" .Lang | relURL }} alt={{ .Lang }}>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          {{ $currentLang := .Lang }}
-          {{ range .Translations }}
-          {{ if not (eq $currentLang .Lang) }}
-          <a href="{{ .RelPermalink }}" class="dropdown-item">
-            <img src={{ printf "/images/flags/%s.png" .Lang | relURL }}
-            alt={{ .Language.LanguageName }}>
-            {{ .Language.LanguageName }}
-          </a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+</div>
+<script>
+    document.onload = function () {
+        $('.ui.dropdown').dropdown();
+    }
+</script>
