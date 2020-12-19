@@ -29,10 +29,11 @@
         {{ range .Translations }}
         {{ if not (eq $currentLang .Lang) }}
         <a href="{{ .RelPermalink }}" class="item">
-          <!--        <img src={{ printf "/images/flags/%s.png" .Lang | relURL }} alt={{ .Language.LanguageName }}-->
-          <!--          aria-label={{ .Language.LanguageName }} />-->
+                  <img src={{ printf "/images/flags/%s.png" .Lang | relURL }} alt={{ .Language.LanguageName }}
+                    aria-label={{ .Language.LanguageName }} />
           {{ .Language.LanguageName }}
         </a>
+<!--        <div class="item">{{ .Language.LanguageName }}</div>-->
         {{ end }}
         {{ end }}
       </div>
@@ -40,7 +41,7 @@
   </nav>
 </div>
 <script>
-    document.onload = function () {
-        $('.ui.dropdown').dropdown();
+    window.onload = function () {
+        $('.ui.dropdown.item').dropdown();
     }
 </script>
