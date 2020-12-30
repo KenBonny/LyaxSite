@@ -1,14 +1,63 @@
+/* #f807ac */
+:root {
+    --kelly-pink: #F807AC;
+}
+
 /* navigation */
 .ui.menu .item {
     background-color: black;
-    color: deeppink;
+    color: var(--kelly-pink);
+    font-size: 1.3rem;
 }
 
 .ui.menu .active.item {
     background-color: black;
-    color: deeppink;
-    font-weight: bolder;
+    color: var(--kelly-pink);
+    font-weight: bold;
     text-decoration: underline;
+}
+
+/* sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body main {
+    flex: 1;
+}
+
+footer {
+    background-color: black;
+    color: var(--kelly-pink);
+    font-size: .8rem;
+    line-height: 1.2;
+}
+
+footer.ui.grid {
+    margin: 0;
+}
+
+
+/* url */
+a {
+    color: var(--kelly-pink);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--kelly-pink);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a i {
+    text-decoration: none !important;
+}
+
+a:hover i {
+    font-weight: bold;
 }
 
 /* Kelly image */
