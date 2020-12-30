@@ -8,7 +8,7 @@
   </a>
 </header>
 <div class="ui container">
-  <nav class="ui four item menu">
+  <nav class="ui five item menu">
     <a href="{{ $homeUrl }}"
        class="item {{if eq $homeUrl $currentUrl}}active{{ end }}"
        aria-label="{{ .Site.Params.Home }}">
@@ -33,7 +33,6 @@
                     aria-label={{ .Language.LanguageName }} />
           {{ .Language.LanguageName }}
         </a>
-<!--        <div class="item">{{ .Language.LanguageName }}</div>-->
         {{ end }}
         {{ end }}
       </div>
