@@ -14,7 +14,7 @@
        aria-label="{{ .Site.Params.Home }}">
       {{ .Site.Params.Home }}
     </a>
-    {{ range .Site.RegularPages }}
+    {{ range (where .Site.RegularPages ".Params.type" "!=" "legal") }}
     <a href="{{ .RelPermalink }}"
        class="item {{if eq .RelPermalink $currentUrl}}active{{ end }}"
        aria-label="{{ .Title }}">
