@@ -8,26 +8,25 @@
     <language>nl-BE</language><atom:link href="https://lyax.be/en/legal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://lyax.be/en/legal/cookie-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/cookie-policy/</guid>
+      <description>Cookie PolicyI strongly believe cookies are food!
+This is why my website only uses one functional cookie.
+The cookie: __cfduid
+This is a Cloudflare cookie that we need to have the website up and running.What does the cookie do?Cloudflare’s full explanation can be found here.It’s a temporary cookie that expires after 30 days. The cookie collects an anonymizes the IPaddresses of visitors to detect if there is any malicious intent.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://lyax.be/en/legal/juridische-vermeldingen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lyax.be/en/legal/juridische-vermeldingen/</guid>
-      <description>
-Legal notices
-Lyax is a division of More Than Code BV Below you can find the official information for Lyax
-as this is known in the Kruispuntbank der Ondernemingen and where you can always reach me.
-Lyax - a More Than Code Comm.V division
-Tolbroek 42
-2560 Bevel, Belgium
-BTW BE0678.903.295
-RPR Antwerpen – Afdeling Mechelen
+      <description>Legal noticesLyax is a division of More Than Code BV.Below you can find the official information for Lyax as this is known in theCrossroads Bank Of Enterprises and where you can always reach me.Lyax - a division ofMore Than Code BV-Tolbroek 42 2560 Bevel, BelgiumBTW BE0678.903.295 RPR Antwerpen – Afdeling Mechelen
 IBAN BE70 7512 0874 2525
-
-+32 494 91 24 46
-
-kelly@lyax.be
-
-</description>
++32 494 91 24 46kelly@lyax.</description>
     </item>
     
     <item>
@@ -36,17 +35,16 @@ kelly@lyax.be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lyax.be/en/legal/privacy-policy/</guid>
-      <description>Privacy policy
-
-This is a copy of the Dutch privacy policy, a translated version is being created.
-
-Deze Privacy Policy is van toepassing op de verwerkingen van Lyax, een
-onderdeel van More Than Code BV (hierna “Lyax”), gevestigd te 2560
-Bevel (Nijlen), Tolbroek 42, BTW BE BE0678.903.295, RPR Antwerpen, afdeling
-Mechelen, in haar hoedanigheid van verwerkingsverantwoordelijke. Vragen in
-verband met deze Privacy Policy kunnen verzonden worden aan Kelly Alix,
-zaakvoerder,
-kelly@lyax.</description>
+      <description>Privacy policyThis is the Dutch version of the privacy policy. A translation of thisdocument is being prepared.Deze Privacy Policy is van toepassing op de verwerkingen van Lyax, eenonderdeel van More Than Code BV (hierna “Lyax”), gevestigd te 2560 Bevel(Nijlen), Tolbroek 42, BTW BE BE0678.903.295, RPR Antwerpen, afdelingMechelen, in haar hoedanigheid van verwerkingsverantwoordelijke. Vragen inverband met deze Privacy Policy kunnen verzonden worden aan Kelly Alix,zaakvoerder,kelly@lyax.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/en/legal/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/terms-and-conditions/</guid>
+      <description>TERMS AND CONDITIONSThis is the Dutch version of the Terms and Conditions. A translation of thisdocument is being prepared.AlgemeenOnverminderd de toepassing van eventuele bijzonderevoorwaarden in een afzonderlijke schriftelijke overeenkomst, zijndeze algemene voorwaarden van toepassing op iedere offerte,opdrachtbevestiging, bestelbon, dienstverleningsovereenkomst,verkoop- of aankoopovereenkomst tussen More Than CodeBV, BTW BE0678.903.295, RPR Antwerpen (AfdelingMechelen) met maatschappelijke zetel te 2560 Bevel (Nijlen),Tolbroek 42.</description>
     </item>
     
   </channel>

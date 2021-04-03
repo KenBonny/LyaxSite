@@ -5,7 +5,7 @@
         <link rel="shortcut icon" href="/images/favicon.ico">
         
         <meta charset="utf-8">
-<meta name="theme-color" content="#ffc0cb">
+<meta name="theme-color" content="#F807AC">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Administratieve ondersteuning voor bedrijven en ondernemers!"/>
 <meta name="keywords" content="Lyax, Administratieve ondersteuning voor bedrijven en ondernemers!, 
@@ -27,17 +27,10 @@ Devilishly Good Support, support, administration, GDPR consulting, freelance"/>
 <meta property="og:site_name" content="Lyax"/>
 <meta property="og:locale" content="nl"/>
 <meta property="og:locale:alternate" content="en"/>
-         
- <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha256-azvvU9xKluwHFJ0Cpgtf0CYzK7zgtOznnzxV4924X1w=" 
-        crossorigin="anonymous"/>
-
-
-<link rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" 
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" 
+      crossorigin="anonymous" />
 
 
 <link rel="stylesheet" 
@@ -48,359 +41,175 @@ Devilishly Good Support, support, administration, GDPR consulting, freelance"/>
         
         
     </head>
-    <body class="d-flex flex-column">
+    <body class="basic minimal">
         
         
 
 
-<header class="container">
-    <img src=/images/logo.png alt="Logo" width="40%" class="mx-auto d-none d-md-block"/>
-    <div class="d-md-none">
-        <img src=/images/logo.png alt="Logo" width="100%" class="mx-auto d-block"/>
-    </div>
+<header>
+  <a href="/" aria-label="Home">
+    <img src=/images/logo.png alt="Logo" class="ui centered medium image computer only grid" />
+    <img src=/images/logo.png alt="Logo" class="ui image mobile only grid" />
+  </a>
 </header>
-<nav class="navbar navbar-expand-lg sticky-top container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
+<div class="ui container">
+  <nav class="ui five item menu">
+    <a href="/"
+       class="item "
+       aria-label="Home">
+      Home
+    </a>
+    
+    <a href="/about/"
+       class="item "
+       aria-label="Over">
+      Over
+    </a>
+    
+    <a href="/contact/"
+       class="item "
+       aria-label="Contact">
+      Contact
+    </a>
+    
+    <a href="/services/"
+       class="item active"
+       aria-label="Diensten">
+      Diensten
+    </a>
+    
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <div class="ui dropdown item">
+      <img src=/images/flags/nl.png alt="nl" aria-label="nl" />
+      <div class="menu">
+        
+        
+        
+        <a href="/en/services/" class="item">
+                  <img src=/images/flags/en.png alt=English
+                    aria-label=English />
+          English
+        </a>
+        
+        
+      </div>
+    </div>
+  </nav>
+</div>
+<script>
+    window.onload = function () {
+        $('.ui.dropdown.item').dropdown({on: 'hover'});
+    }
+</script>
 
-            <li class="nav-item">
-                <a class='nav-link '
-                    href="/">
-                    Over
-                </a>
-            </li>
+        <main class="main ui container">
             
-                <li class="nav-item">
-                    <a class="nav-link " 
-                        href="/contact/">
-                        Contact
-                    </a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link active" 
-                        href="/services/">
-                        Diensten
-                    </a>
-                </li>
-            
-
+    
+<div class="ui segment stackable two column grid">
+  <div class="column">
+    <h1 class="ui center aligned header">Paralegal diensten</h1>
+    <ul>
+      <li>Data Protection – Toepassing GDPR</li>
+      <li>Transcriptie</li>
+      <li>Juridische vertalingen
+        <ul>
+          <li>FR <i class="arrow right icon"></i> NL</li>
+          <li>FR <i class="arrow right icon"></i> EN</li>
+          <li>NL <i class="arrow right icon"></i> EN</li>
+          <li>EN <i class="arrow right icon"></i> NL</li>
         </ul>
+      </li>
+      <li>Privacy Policy / Cookie Policy / Algemene voorwaarden</li>
+      <li>Algemene ondersteuning van juristen, advocaten, notarissen …</li>
+    </ul>
+  </div>
 
-        <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdown" 
-                        class="nav-link dropdown-toggle" 
-                        href="#" 
-                        role="button" 
-                        data-toggle="dropdown" 
-                        aria-haspopup="true" 
-                        aria-expanded="false">
-                        <img src=/images/flags/nl.png alt=nl>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        
-                        
-                            
-                            <a href="/en/services/" class="dropdown-item">
-                                <img src=/images/flags/en.png
-                                     alt=English>
-                                English
-                            </a>
-                            
-                        
-                    </div>
-                </li>
-            </ul>
-    </div>
-</nav>
-
-        <main class="container flex-grow-1">
-            
-    
-
-<h2 id="momenteel-bied-ik-volgende-diensten-aan">Momenteel bied ik volgende diensten aan</h2>
-
-<div class="accordion">
-    
-
-
-
-
-    
-
-<div class="card" id="gdprTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#gdprBody" aria-expanded="false" aria-controls="gdpr">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Data Protection/Toepassing GDPR
-            </h6>
-        </div>
-    </a>
-
-    <div id="gdprBody" class="collapse show" aria-labelledby="gdprTitle">
-        <div class="card-body">
-            
-Ik heb mijn certificaat voor DPO gehaald via Syntra in 2018. Ik heb dit in mijn toenmalige job kunnen toepassen door het bedrijf compliant te maken volgens de regels van de GDPR.
-
-        </div>
-    </div>
+  <div class="column">
+    <h1 class="ui center aligned header">Administratieve diensten</h1>
+    <ul>
+      <li>Boekhouding A – Y
+        <ul>
+          <li>Data Input / Data processing</li>
+          <li>Facturatie aanmaak/verzending/opvolging</li>
+          <li>Payment matching</li>
+        </ul>
+      </li>
+      <li>Credit Control / Debiteurenbeheer</li>
+      <li>Office 365 (Word – Excel – Outlook – Powerpoint)</li>
+      <li>Process optimisation</li>
+      <li>Dossierbeheer A – Z</li>
+      <li>Lay-outing</li>
+      <li>Proofreading/Correctie teksten (NL en EN)</li>
+      <li>Notuleren – zowel tijdens online meetings als live vergaderingen</li>
+    </ul>
+  </div>
 </div>
 
-
-
-
-<div class="card" id="legal-writingTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#legal-writingBody" aria-expanded="false" aria-controls="legal-writing">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Legal writing en transcriptie
-            </h6>
-        </div>
-    </a>
-
-    <div id="legal-writingBody" class="collapse" aria-labelledby="legal-writingTitle">
-        <div class="card-body">
-            
-Rechtstreeks contact met advocaten, rechtbanken en deurwaarders is mij niet vreemd gezien mijn ervaring bij een deurwaarderskantoor. Ik beschik over de nodige kwaliteiten om tactvol en discreet met deze informatie om te gaan. Ook mondeling opgenomen plaatsbeschrijvingen e.d. kan ik zonder problemen omzetten naar een mooi Word-documentje.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="legal-readingTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#legal-readingBody" aria-expanded="false" aria-controls="legal-reading">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Legal documenten opstellen en begrijpen
-            </h6>
-        </div>
-    </a>
-
-    <div id="legal-readingBody" class="collapse" aria-labelledby="legal-readingTitle">
-        <div class="card-body">
-            
-Ik ben in staat om de “legal talk” om te zetten in spreektaal die voor leken ook duidelijk is. Tevens heb ik ervaring in het lezen van vonnissen en het opstellen en voorbereiden van de bijhorende aktes.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="file-managmentTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#file-managmentBody" aria-expanded="false" aria-controls="file-managment">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Dossierbeheer
-            </h6>
-        </div>
-    </a>
-
-    <div id="file-managmentBody" class="collapse" aria-labelledby="file-managmentTitle">
-        <div class="card-body">
-            
-Dossiers invoeren en opvolgen van A tot Z is steeds de rode draad doorheen mijn professionele carrière geweest. Ik heb hiervoor steeds met bedrijfseigen programma’s gewerkt.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="credit-controlTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#credit-controlBody" aria-expanded="false" aria-controls="credit-control">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Credit Control
-            </h6>
-        </div>
-    </a>
-
-    <div id="credit-controlBody" class="collapse" aria-labelledby="credit-controlTitle">
-        <div class="card-body">
-            
-Met mijn ervaringen binnen een incassobureau en deurwaarderskantoor kan ik voor u uw openstaande facturen opvolgen en debiteuren contacteren om een betaling te bekomen. Indien nodig kan ik de nodige stappen zetten om de juridische procedure op te starten en dit ook op te volgen bij de advocaten.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="ms-officeTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#ms-officeBody" aria-expanded="false" aria-controls="ms-office">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Microsoft Office
-            </h6>
-        </div>
-    </a>
-
-    <div id="ms-officeBody" class="collapse" aria-labelledby="ms-officeTitle">
-        <div class="card-body">
-            
-Word, Excel  en Outlook kennen geen geheimen, maar ook een mooie PowerPoint Presentatie behoort zeker tot de mogelijkheden.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="process-optimisationTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#process-optimisationBody" aria-expanded="false" aria-controls="process-optimisation">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Process Optimisation
-            </h6>
-        </div>
-    </a>
-
-    <div id="process-optimisationBody" class="collapse" aria-labelledby="process-optimisationTitle">
-        <div class="card-body">
-            
-Ik bekijk samen met u hoe uw processen momenteel verlopen en of deze versneld en versoepeld kunnen worden.
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="accountingTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#accountingBody" aria-expanded="false" aria-controls="accounting">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Assistentie Boekhouding
-            </h6>
-        </div>
-    </a>
-
-    <div id="accountingBody" class="collapse" aria-labelledby="accountingTitle">
-        <div class="card-body">
-            <p>Ik beschik over basiskennis van Briljant, Winbooks en AdsolutMasterKB. Indien u gebruik maakt van andere programma’s ben ik hier, mits een korte opleiding, snel mee weg. Betreffende assistentie voor boekhouding, kan ik u met volgende taken van dienst zijn:</p>
-
-<ul>
-<li>Data Input/Data Processing</li>
-<li>Facturatie aanmaak/verzending</li>
-<li>Payment Matching</li>
-</ul>
-
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="card" id="social-mediaTitle">
-    <a data-toggle="collapse" class="click-me" data-target="#social-mediaBody" aria-expanded="false" aria-controls="social-media">
-        <div class="card-header">
-            <h6 class="mb-0">
-                Social Media Management
-            </h6>
-        </div>
-    </a>
-
-    <div id="social-mediaBody" class="collapse" aria-labelledby="social-mediaTitle">
-        <div class="card-body">
-            
-Wanneer u over een mooie website beschikt maar u vindt geen tijd om de inhoud te beheren, kan u mij hiervoor ook steeds contacteren. Ik ben geen programmeur en kan dus geen website bouwen, maar een reeds bestaande website onderhouden met de door u aangeleverde content (vb een nieuwsbrief, foto’s werknemers, contactgegevens) behoort tevens tot de mogelijkheden.
-
-Ook het beheer van uw social media zoals Twitter, Facebook, Instagram,... kan ik voor u monitoren en u hiervan een verslag bezorgen zodat gepaste stappen kunnen ondernomen worden om de ontvangen berichten te behandelen.
-
-        </div>
-    </div>
-</div>
-
-
-</div>
-
+<p>
+  Ziet u uw opdracht hier niet onmiddellijk tussen staan? Geen nood!
+  <br/>Contacteer me vrijblijvend met een korte omschrijving van de opdracht en we kijken samen wat ik voor u kan betekenen.
+</p>
+<p>
+  Ik ben beschikbaar voor zowel kortlopende als langlopende opdrachten en reeds vanaf 2u per week.
+  <br/>Ook vervangingen en eenmalige opdrachten zijn mogelijk.
+</p>
+<p>
+  Bent u in de provincie Antwerpen gevestigd? Dan kan ik de opdracht ook bij u op kantoor komen uitvoeren!
+</p>
 
         </main>
 
-        <footer class="mt-4">
-    <section class="container">
-        <div class="row">
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Lyax</h5>
-                        <div class="card-subtitle mb-2 text-muted">
-                            a <a href="https://www.morethancode.be" rel="noopener" target="_blank"
-                                aria-label="More Than Code">More Than Code</a>
-                            division
-                        </div>
-                        <p>
-                            Tolbroek 42<br />
-                            2560 Bevel, Belgium
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md">
-                <ul class="list-group">
-                    <li class="list-group-item"><i class="fas fa-phone"></i> <a href="tel:+32494912446">+32 494 91 24
-                            46</a></li>
-                    <li class="list-group-item"><i class="far fa-envelope"></i> <a
-                            href="mailto:kelly@lyax.be">kelly@lyax.be</a>
-                    </li>
-                    <li class="list-group-item click-me"
-                        title="Copy to clipboard"
-                        data-toggle="tooltip" 
-                        data-placement="bottom" 
-                        onclick="clipboard('BE0678.903.295')">
-                        <i class="fas fa-hashtag"></i>  BE0678.903.295
-                    </li>
-                    <li class="list-group-item click-me"
-                        title="Copy to clipboard"
-                        data-toggle="tooltip" 
-                        data-placement="bottom" 
-                        onclick="clipboard('BE70 7512 08744 2525')">
-                        <i class="fas fa-credit-card"></i> BE70 7512 0874 2525
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md">
-                <ul class="list-group">
-                    <li class="list-group-item">&nbsp;</li>
-                    <li class="list-group-item">Created by <a href="https://www.morethancode.be" rel="noopener"
-                            target="_blank">More Than Code</a></li>
-                    <li class="list-group-item">Based on <a href="https://getbootstrap.com" rel="noopener"
-                            target="_blank">Bootstrap</a></li>
-                    <li class="list-group-item">Logo by <a href="https://www.mcorp.be/" rel="noopener"
-                            target="_blank">MCorp</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        <footer class="ui container stackable grid">
+  <div class="row">
+    <div class="five wide column left aligned">
+      Lyax - a division of <a href="https://morethancode.be" rel="noopener" target="_blank" title="More Than Code" aria-label="More Than Code">More Than Code BV</a> -
+      <br/>
+      <a href="https://www.google.com/maps/place/Tolbroek+42,+2560+Nijlen" rel="noopener" target="_blank" title="address" aria-label="address">
+        Tolbroek 42<br/>
+        2560 Bevel, Belgium
+      </a>
+    </div>
+    
+    <div class="six wide column center aligned">
+      <a href="tel:+32494912446" title="telephone" aria-label="telephone">
+        <i class="phone icon"></i>+32 494 91 24 46
+      </a>
+      <br/>
+      <a href="mailto:kelly@lyax.be" title="email" aria-label="email">
+        <i class="envelope outline icon"></i>kelly@lyax.be
+      </a>
+    </div>
+    
+    <div class="five wide column right aligned">
+      <a href="/legal/terms-and-conditions" title="terms & conditions" aria-label="terms & conditions">Terms & Conditions</a>
+      <br/>
+      <a href="/legal/privacy-policy" title="privacy policy" aria-label="privacy policy">Privacy policy</a>
+      <br/>
+      <a href="/legal/cookie-policy" title="cookie policy" aria-label="cookie policy">Cookie policy</a>
+      <br/>
+      <a href="/legal/juridische-vermeldingen" title="juridische vermeldingen" aria-label="juridische vermeldingen">Juridische vermeldingen</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column center aligned">
+      Created by <a href="https://morethancode.be" rel="noopener" target="_blank" title="More Than Code" aria-label="More Than Code">More Than Code BV</a> |
+      made with <a href="https://semantic-ui.com" rel="noopener" target="_blank" title="semantic ui framework" aria-label="semantic ui framework">Semantic-UI</a> |
+      logo courtesey of <a href="https://www.mcorp.be" rel="noopener" target="_blank" title="mcorp" aria-label="mcorp">MCorp</a>
+    </div>
+  </div>
 </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" 
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" 
-        integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" 
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" 
         crossorigin="anonymous"></script>
-<script src=/js/clipboard.js
-        integrity="sha256-nM33w2edUyHe2zLdkLhsgQyMOZ3aanfn+1725SBTF5I="
-        crossorigin="anonymous"></script>
+
+
+
+
 
     </body>
 </html>

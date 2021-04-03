@@ -6,10 +6,17 @@
     <description>Recent content in About Lyax and Kelly Alix on Lyax</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
-    <lastBuildDate>Wed, 01 Apr 2020 21:16:16 +0100</lastBuildDate>
-    
-	<atom:link href="https://lyax.be/en/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 01 Apr 2020 21:16:16 +0100</lastBuildDate><atom:link href="https://lyax.be/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://lyax.be/en/about/</link>
+      <pubDate>Wed, 30 Dec 2020 11:14:00 +0200</pubDate>
+      
+      <guid>https://lyax.be/en/about/</guid>
+      <description>Hello there!I am Kelly Alix and since 2019 I&#39;m ready to assist entrepreneurs and companies with their questions about GDPR and to bring order to administrative chaos.
+I decided to join my husband Ken Bonny in the company that he founded in 2017. More Than Codenow really is more than IT consultancy.
+I have a good 10 years of work experience at, among others, a bailiff&#39;s office and a collection agency.</description>
+    </item>
     
     <item>
       <title>Contact</title>
@@ -17,10 +24,7 @@
       <pubDate>Wed, 01 Apr 2020 21:16:16 +0100</pubDate>
       
       <guid>https://lyax.be/en/contact/</guid>
-      <description>Contact me I prefer to be contacted via e-mail or direct messaging services like WhatsApp or Telegram.
-It is also possible to do video calls. If you would like to arrange this, you can contact me and we can arrange an online meeting.
-Non urgent Email An email to kelly@lyax.be is the easiest way to get in touch.
- LinkedIn My LinkedIn profile is the most important social medium for recruiters, which is also where you will find my most recent resumé.</description>
+      <description>ContactYou can find different ways to contact me below.E-mail is my favourite way for a first contact. After the first contact other ways,such as video calls, can be used to discuss the details of the assignment.E-mailkelly@lyax.bePhoneWhatsAppText message+32 494 91 24 46TelegramTwitter@KellyAlixSocial mediaLinkedInFacebook</description>
     </item>
     
     <item>
@@ -29,7 +33,48 @@ Non urgent Email An email to kelly@lyax.be is the easiest way to get in touch.
       <pubDate>Wed, 01 Apr 2020 21:16:16 +0100</pubDate>
       
       <guid>https://lyax.be/en/services/</guid>
-      <description>At the moment, I provide the following services Data Protection/Application GDPRI received my certificate in 2018. I was able to apply this in the job I was doing at the time by making the company compliant with GDPR.Legal writing and transcriptionContacting lawyers, courts and judicial officers is one of my strengths due to my experience in at a judicial officers’ office.</description>
+      <description>Paralegal servicesData Protection – Application of GDPRTranscriptionLegal translationsFR  NLFR  ENNL  ENEN  NLPrivacy Policy / Cookie Policy / Terms and conditionsGeneral support for lawyers, notaries...Administrative servicesAccountancy A – YData Input / Data processingInvoice creation/mailing/follow-upPayment matchingCredit Control / Accounts receivable managementOffice 365 (Word – Excel – Outlook – Powerpoint)Process optimisationFilemanagement A – ZLayout formattingProofreading (NL and EN)Taking minutes - both during online and live meetingsIs your specific assignment not listed?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/en/legal/cookie-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/cookie-policy/</guid>
+      <description>Cookie PolicyI strongly believe cookies are food!
+This is why my website only uses one functional cookie.
+The cookie: __cfduid
+This is a Cloudflare cookie that we need to have the website up and running.What does the cookie do?Cloudflare’s full explanation can be found here.It’s a temporary cookie that expires after 30 days. The cookie collects an anonymizes the IPaddresses of visitors to detect if there is any malicious intent.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/en/legal/juridische-vermeldingen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/juridische-vermeldingen/</guid>
+      <description>Legal noticesLyax is a division of More Than Code BV.Below you can find the official information for Lyax as this is known in theCrossroads Bank Of Enterprises and where you can always reach me.Lyax - a division ofMore Than Code BV-Tolbroek 42 2560 Bevel, BelgiumBTW BE0678.903.295 RPR Antwerpen – Afdeling Mechelen
+IBAN BE70 7512 0874 2525
++32 494 91 24 46kelly@lyax.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/en/legal/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/privacy-policy/</guid>
+      <description>Privacy policyThis is the Dutch version of the privacy policy. A translation of thisdocument is being prepared.Deze Privacy Policy is van toepassing op de verwerkingen van Lyax, eenonderdeel van More Than Code BV (hierna “Lyax”), gevestigd te 2560 Bevel(Nijlen), Tolbroek 42, BTW BE BE0678.903.295, RPR Antwerpen, afdelingMechelen, in haar hoedanigheid van verwerkingsverantwoordelijke. Vragen inverband met deze Privacy Policy kunnen verzonden worden aan Kelly Alix,zaakvoerder,kelly@lyax.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/en/legal/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/en/legal/terms-and-conditions/</guid>
+      <description>TERMS AND CONDITIONSThis is the Dutch version of the Terms and Conditions. A translation of thisdocument is being prepared.AlgemeenOnverminderd de toepassing van eventuele bijzonderevoorwaarden in een afzonderlijke schriftelijke overeenkomst, zijndeze algemene voorwaarden van toepassing op iedere offerte,opdrachtbevestiging, bestelbon, dienstverleningsovereenkomst,verkoop- of aankoopovereenkomst tussen More Than CodeBV, BTW BE0678.903.295, RPR Antwerpen (AfdelingMechelen) met maatschappelijke zetel te 2560 Bevel (Nijlen),Tolbroek 42.</description>
     </item>
     
   </channel>

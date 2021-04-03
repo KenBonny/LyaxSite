@@ -8,26 +8,25 @@
     <language>nl-BE</language><atom:link href="https://lyax.be/legal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://lyax.be/legal/cookie-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/legal/cookie-policy/</guid>
+      <description>Cookie PolicyIk geloof er sterk in dat koekjes om op te eten zijn!
+Daarom gebruikt mijn website maar 1 functioneel cookie.
+De cookie in kwestie: __cfduid
+Dit is een cookie van Cloudflare, dewelke we nodig hebben om de website te laten draaien.Wat doet de cookie?De volledige uitleg van Cloudflare vind je hier (Engels!).Het gaat om een tijdelijke cookie die na 30 dagen vervalt.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://lyax.be/legal/juridische-vermeldingen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lyax.be/legal/juridische-vermeldingen/</guid>
-      <description>
-Juridische vermeldingen
-Lyax is een onderdeel van More Than Code BV Hieronder vindt u de officiële gegevens van Lyax
-zoals deze gekend zijn bij de Kruispuntbank der Ondernemingen en waarop u mij steeds kan bereiken.
-Lyax - a More Than Code Comm.V division
-Tolbroek 42
-2560 Bevel, Belgium
-BTW BE0678.903.295
-RPR Antwerpen – Afdeling Mechelen
+      <description>Juridische vermeldingenLyax is een onderdeel van More Than Code BV.Hieronder vindt u de officiële gegevens van Lyax zoals deze gekend zijn bijde Kruispuntbank der Ondernemingen en waarop u mij steeds kan bereiken.Lyax - a division ofMore Than Code BV-Tolbroek 42 2560 Bevel, BelgiumBTW BE0678.903.295 RPR Antwerpen – Afdeling Mechelen
 IBAN BE70 7512 0874 2525
-
-+32 494 91 24 46
-
-kelly@lyax.be
-
-</description>
++32 494 91 24 46kelly@lyax.</description>
     </item>
     
     <item>
@@ -36,27 +35,17 @@ kelly@lyax.be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lyax.be/legal/privacy-policy/</guid>
-      <description>Privacy policy
-
-Deze Privacy Policy is van toepassing op de verwerkingen van Lyax, een
-onderdeel van More Than Code BV (hierna “Lyax”), gevestigd te 2560
-Bevel (Nijlen), Tolbroek 42, BTW BE BE0678.903.295, RPR Antwerpen, afdeling
-Mechelen, in haar hoedanigheid van verwerkingsverantwoordelijke. Vragen in
-verband met deze Privacy Policy kunnen verzonden worden aan Kelly Alix,
-zaakvoerder,
-kelly@lyax.be.
-Persoonsgegevens
-Deze Privacy Policy heeft betrekking op uw persoonsgegevens.
-
-Het begrip persoonsgegevens wordt geïnterpreteerd volgens de definitie
-komende uit art 4, 1) AVG: “alle informatie over een geïdentificeerde of
-identificeerbare natuurlijke persoon („de betrokkene”); als identificeerbaar
-wordt beschouwd een natuurlijke persoon die direct of indirect kan worden
-geïdentificeerd, met name aan de hand van een identificator zoals een naam,
-een identificatienummer, locatiegegevens, een online identificator of van
-een of meer elementen die kenmerkend zijn voor de fysieke, fysiologische,
-genetische, psychische, economische, culturele of sociale identiteit van die
-natuurlijke persoon.</description>
+      <description>Privacy policyDeze Privacy Policy is van toepassing op de verwerkingen van Lyax, eenonderdeel van More Than Code BV (hierna “Lyax”), gevestigd te 2560 Bevel(Nijlen), Tolbroek 42, BTW BE BE0678.903.295, RPR Antwerpen, afdelingMechelen, in haar hoedanigheid van verwerkingsverantwoordelijke. Vragen inverband met deze Privacy Policy kunnen verzonden worden aan Kelly Alix,zaakvoerder,kelly@lyax.be.PersoonsgegevensDeze Privacy Policy heeft betrekking op uw persoonsgegevens.
+Het begrip persoonsgegevens wordt geïnterpreteerd volgens de definitiekomende uit art 4, 1) AVG:“alle informatie over een geïdentificeerde of identificeerbarenatuurlijke persoon („de betrokkene”); als identificeerbaar wordtbeschouwd een natuurlijke persoon die direct of indirect kan wordengeïdentificeerd, met name aan de hand van een identificator zoals eennaam, een identificatienummer, locatiegegevens, een online identificatorof van een of meer elementen die kenmerkend zijn voor de fysieke,fysiologische, genetische, psychische, economische, culturele of socialeidentiteit van die natuurlijke persoon.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lyax.be/legal/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lyax.be/legal/terms-and-conditions/</guid>
+      <description>ALGEMENE VOORWAARDENAlgemeenOnverminderd de toepassing van eventuele bijzonderevoorwaarden in een afzonderlijke schriftelijke overeenkomst, zijndeze algemene voorwaarden van toepassing op iedere offerte,opdrachtbevestiging, bestelbon, dienstverleningsovereenkomst,verkoop- of aankoopovereenkomst tussen More Than CodeBV, BTW BE0678.903.295, RPR Antwerpen (AfdelingMechelen) met maatschappelijke zetel te 2560 Bevel (Nijlen),Tolbroek 42.Huidige algemene voorwaarden van More Than Codezijn specifiek van toepassing op diensten/prestaties verricht doorhaar subdivisie Lyax.</description>
     </item>
     
   </channel>

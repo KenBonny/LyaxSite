@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://lyax.be/en/about/</loc>
+    <lastmod>2020-12-30T11:14:00+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/about/"
+                />
+  </url><url>
     <loc>https://lyax.be/en/</loc>
     <lastmod>2020-04-01T21:16:16+01:00</lastmod>
     <xhtml:link
@@ -15,9 +27,7 @@
                 hreflang="en"
                 href="https://lyax.be/en/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lyax.be/en/contact/</loc>
     <lastmod>2020-04-01T21:16:16+01:00</lastmod>
     <xhtml:link
@@ -30,9 +40,7 @@
                 hreflang="en"
                 href="https://lyax.be/en/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lyax.be/en/services/</loc>
     <lastmod>2020-04-01T21:16:16+01:00</lastmod>
     <xhtml:link
@@ -45,9 +53,55 @@
                 hreflang="en"
                 href="https://lyax.be/en/services/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://lyax.be/en/legal/cookie-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/legal/cookie-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/legal/cookie-policy/"
+                />
+  </url><url>
+    <loc>https://lyax.be/en/legal/juridische-vermeldingen/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/legal/juridische-vermeldingen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/legal/juridische-vermeldingen/"
+                />
+  </url><url>
+    <loc>https://lyax.be/en/legal/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/legal/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/legal/privacy-policy/"
+                />
+  </url><url>
+    <loc>https://lyax.be/en/legal/terms-and-conditions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/legal/terms-and-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/legal/terms-and-conditions/"
+                />
+  </url><url>
     <loc>https://lyax.be/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -59,9 +113,19 @@
                 hreflang="en"
                 href="https://lyax.be/en/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://lyax.be/en/legal/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://lyax.be/legal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lyax.be/en/legal/"
+                />
+  </url><url>
     <loc>https://lyax.be/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,5 +138,4 @@
                 href="https://lyax.be/en/tags/"
                 />
   </url>
-  
 </urlset>
